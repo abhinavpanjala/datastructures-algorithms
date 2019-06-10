@@ -27,9 +27,7 @@ public class TwoSigma {
             circles++;
         }
         return circles;
-
     }
-
     private static void updateFriendsPlace(char[][] friends, boolean[] occupied, int pos) {
         for (int j = 0; j < friends.length; j++) {
             if (occupied[j])
